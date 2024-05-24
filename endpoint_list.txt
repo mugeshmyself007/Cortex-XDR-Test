@@ -1,0 +1,4 @@
+dataset = endpoints
+| filter endpoint_name = "pc"
+| fields endpoint_name , username, ip_address , *
+| limit 100
